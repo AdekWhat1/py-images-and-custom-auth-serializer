@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext as _
-from django.contrib.auth.models import AbstractUser, BaseUserManager as DjangoUserManager
+from django.contrib.auth.models import (
+    AbstractUser, BaseUserManager as DjangoUserManager
+)
 
 
 class UserManager(DjangoUserManager):
